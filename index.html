@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de Presentación</title>
+    <link rel="stylesheet" href="./CSS/estilo.css">
+</head>
+<body>
+    <div class="tarjeta">
+        <div id="tarjeta-c">
+            <h2 id="nombre">Nombre</h2>
+            <p id="posicion">Puesto</p>
+        </div>
+        <button id="edit">Editar</button>
+    </div>
+
+    <div id="contenedor" class="oculto">
+        <form id="form">
+            <label for="nombree">Nombre:</label>
+            <input type="text" id="nombree" required>
+            <label for="posicionn">Puesto:</label>
+            <input type="text" id="posicionn" required>
+            <button type="submit">Guardar</button>
+        </form>
+    </div>
+    <script src="./JS/script.js"></script>
+</body>
+</html>
